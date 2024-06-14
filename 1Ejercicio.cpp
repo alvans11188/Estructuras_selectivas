@@ -2,16 +2,16 @@
 using namespace std;
 
 int main (){
-	int calificacion1, calificacion2, calificacion3, total;
+	int c1, c2, c3, t;
 	cout <<"Ingrese calificacion 1: ";
-	cin >> calificacion1;
+	cin >> c1;
 	cout <<"Ingrese calificacion 2: ";
-	cin >> calificacion2;
+	cin >> c2;
 	cout <<"Ingrese calificacion 3: ";
-	cin >> calificacion3;
-	total = calificacion1 + calificacion2 + calificacion3;
+	cin >> c3;
+	t = c1 + c2+ c3;
 	
-	if (total >= 70){
+	if (t >= 70){
 		cout << "El alumno esta aprobado"<< endl;
 	} else { 
 		cout <<"El alumno esta desaprobado" << endl;
