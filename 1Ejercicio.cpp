@@ -15,12 +15,9 @@ using namespace std;
 int main (){
 	int c1, c2, c3, t, r;
 	cout << "Mediante el siguiente programa se determinara si el alumno esta aprobado desaprobado" << endl;
-	cout <<"Ingrese calificacion 1: ";
-	cin >> c1;
-	cout <<"Ingrese calificacion 2: ";
-	cin >> c2;
-	cout <<"Ingrese calificacion 3: ";
-	cin >> c3;
+	cout <<"Ingrese calificacion 1: ", cin >> c1;
+	cout <<"Ingrese calificacion 2: ", cin >> c2;
+	cout <<"Ingrese calificacion 3: ", cin >> c3;
 	if (c1>=0 & c2>=0 & c3 >=0){
 			r=funcion(c1,c2,c3);
 	
@@ -31,7 +28,7 @@ int main (){
 	}
 		
 	}else{
-		cout << "Los datos ingresados son invalidos"<< endl;
+		cout << "Los datos ingresados son invalidos, intente volver a escribir los numeros"<< endl;
 	}
 	
 	return 0;		
