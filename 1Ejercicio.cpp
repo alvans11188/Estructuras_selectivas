@@ -21,14 +21,19 @@ int main (){
 	cin >> c2;
 	cout <<"Ingrese calificacion 3: ";
 	cin >> c3;
-	
-	r=funcion(c1,c2,c3);
+	if (c1>=0 & c2>=0 & c3 >=0){
+			r=funcion(c1,c2,c3);
 	
 	if (r >= 70){
 		cout << "El alumno esta aprobado"<< endl;
 	} else { 
 		cout <<"El alumno esta desaprobado" << endl;
-	}	
+	}
+		
+	}else{
+		cout << "Los datos ingresados son invalidos"<< endl;
+	}
+	
 	return 0;		
 	
 }
